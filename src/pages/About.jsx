@@ -1,10 +1,11 @@
-import Card from "./Card"
-import Crd from "./Crd"
-import Seller from "./Seller"
-export default function Main() {
+import React from 'react'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
-  return <main>
-    <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+export default function About() {
+  return <>
+<Header/>
+  <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img src="public/image/main-1.jpg" className="d-block w-100" alt="..." />
@@ -29,26 +30,11 @@ export default function Main() {
       </button>
       <button className="red-2">REORDER</button>
     </div>
+    <div className='colour'>About</div>
+    <p className='colour'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas temporibus reiciendis aliquam, laudantium saepe vel rerum! Beatae quas dolorum velit culpa facilis modi, veritatis quae corporis eum eos atque error.</p>
+    <Footer/>
+  </>
 
-    <div className="pick-up">
-      <div className="container">
-        <div className="row imgs">
-          <div className="col-md-6">
-            <img src="public/image/pickup-banner.01fde5a7db5ef06f7bce.png" alt="" />
-          </div>
-          <div className="col-md-6">
-            <img src="public/image/favorites-banner.afff26bc6d0127f68baa.png" alt="" />
-          </div>
-          <div className="col-md-6">
-            <img src="public/image/scamOrdr.6f809bf83912dd8dbe31.jpg" alt="" />
-          </div>
-          <div className="col-md-6 center">
-            <img src="public/image/side-card.png" alt="" />
-            <h4>Adding 11 herbs and spices, Explore our menu and add items to your cart.</h4>
-            <button>EXPLORE MENU</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
+
+
 }

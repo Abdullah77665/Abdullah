@@ -3,7 +3,7 @@
   font-weight: 400;
   color-scheme: light dark;
   background-color: black;
-  color: white;
+  color: white ;
   overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;
   font-synthesis: none;
@@ -15,6 +15,7 @@
 }
 body {
   background-color: black;
+  color: white;
 }
 .line-before {
   color: white;
@@ -297,6 +298,10 @@ padding: 10px 5px;
 .footer .end-footer .red {
   color: var(--colour-primary);
   margin-bottom: -10px;
+}
+.colour{
+  color: white;
+  text-align: center;
 }
 @media (max-width: 998px) {
   .crd-3 button {

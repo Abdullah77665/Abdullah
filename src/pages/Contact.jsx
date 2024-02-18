@@ -1,10 +1,11 @@
-import Card from "./Card"
-import Crd from "./Crd"
-import Seller from "./Seller"
-export default function Main() {
+import React from 'react'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
-  return <main>
-    <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+export default function Contact() {
+  return<>
+   <Header/>
+  <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img src="public/image/main-1.jpg" className="d-block w-100" alt="..." />
@@ -30,25 +31,8 @@ export default function Main() {
       <button className="red-2">REORDER</button>
     </div>
 
-    <div className="pick-up">
-      <div className="container">
-        <div className="row imgs">
-          <div className="col-md-6">
-            <img src="public/image/pickup-banner.01fde5a7db5ef06f7bce.png" alt="" />
-          </div>
-          <div className="col-md-6">
-            <img src="public/image/favorites-banner.afff26bc6d0127f68baa.png" alt="" />
-          </div>
-          <div className="col-md-6">
-            <img src="public/image/scamOrdr.6f809bf83912dd8dbe31.jpg" alt="" />
-          </div>
-          <div className="col-md-6 center">
-            <img src="public/image/side-card.png" alt="" />
-            <h4>Adding 11 herbs and spices, Explore our menu and add items to your cart.</h4>
-            <button>EXPLORE MENU</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
+  <div className="colour"> Contact</div>
+  <p className='colour'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti amet explicabo suscipit ullam, numquam, quia omnis molestias doloribus magni assumenda, labore voluptate unde necessitatibus error est dolorem provident laboriosam sit quaerat nobis recusandae? Non explicabo reiciendis accusantium ab error? Quisquam laudantium temporibus cumque dicta quibusdam tempora facere laborum eveniet deleniti!</p>
+  <Footer/>
+  </>
 }
